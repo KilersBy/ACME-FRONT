@@ -37,7 +37,7 @@ export default function Login() {
                     <br></br>
                     <button type="submit">Connexion</button>
                     <br></br>
-                    <a href="/">Mot de passe oublie</a>
+                    <a href="/">Mot de passe oubliee</a>
                 </form>
             </div>
         </section>

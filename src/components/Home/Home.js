@@ -11,7 +11,7 @@ function Home() {
             <Navbar />
             <div className="container p-5">
                 <h1 className="display-3 text-black text-center">
-                    {/* Et si tout commençait à vos pieds */}
+                    Bienvenue
                 </h1>
             </div>
             <div className='section'>
