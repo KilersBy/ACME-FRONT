@@ -6,20 +6,22 @@ import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import Error404 from './components/Error404/Error404';
 import Login from './components/Login/Login';
+import Footer from './components/Footer';
 
 // Copyright ABED
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
         <div>
           <Routes>
             <Route exact path='/' element={<Login />} />
-            <Route exact path='/home' element={<Home />} />
-            <Route path='/Product' element={<Product />} />
+            <Route exact path='/Accueil' element={<Home />} />
+            <Route path='/Produit' element={<Product />} />
             <Route path='/Contact' element={<Contact />} />
             <Route path='*' element={<Error404 />} />
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter >
     </div >

@@ -17,8 +17,7 @@ export default function Login() {
             const result = await axios.post(url, { email, password })
             console.log("Connexion réussi")
             axios.defaults.headers.common['Authorization'] = `Bearer ${result.data.token}`
-            navigate(`/home`);
-
+            navigate(`/Accueil`);
         }
         catch (error) {
             console.log("Echec de connexion")
