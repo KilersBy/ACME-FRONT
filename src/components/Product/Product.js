@@ -4,6 +4,7 @@ import ProductData from "./productData";
 import "../../styles/Product.css";
 
 function Product() {
+
     return (
         <section>
             <Navbar />
