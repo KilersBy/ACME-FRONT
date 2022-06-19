@@ -1,17 +1,14 @@
 import React from "react";
 import Navbar from '../Navbar/Navbar';
-import ProductData from "./productData";
+import ProductData from "./ProductData";
 import "../../styles/Product.css";
 
 function Product() {
-
     return (
         <section>
             <Navbar />
-            <div className="container">
-                <div className="row">
-                    <ProductData />
-                </div>
+            <div className="row">
+                <ProductData />
             </div>
         </section>
     );

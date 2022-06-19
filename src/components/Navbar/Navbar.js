@@ -36,12 +36,14 @@ function Navbar() {
                     <Link to="/Accueil" className="items">Accueil</Link>
                     <Link to="/Produit" className="items">Produit</Link>
                     <Link to="/Contact" className="items">Contact</Link>
+                    <Link to="/Panier" className="items">Panier</Link>
                 </div>
             </div>
             <div className="rightSide">
                 <Link to="/Accueil" className="items">Accueil</Link>
                 <Link to="/Produit" className="items">Produit</Link>
                 <Link to="/Contact" className="items">Contact</Link>
+                <Link to="/Panier" className="items">Panier</Link>
                 <button onClick={toggleNavbar}>
                     <FilterHdrIcon />
                 </button>

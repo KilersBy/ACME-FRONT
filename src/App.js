@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Error404 from './components/Error404/Error404';
 import Login from './components/Login/Login';
 import Footer from './components/Footer';
+import Basket from './components/Panier/Basket';
 
 // Copyright ABED
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route exact path='/Accueil' element={<Home />} />
             <Route path='/Produit' element={<Product />} />
             <Route path='/Contact' element={<Contact />} />
+            <Route path='/Panier' element={<Basket />} />
             <Route path='*' element={<Error404 />} />
           </Routes>
           <Footer />

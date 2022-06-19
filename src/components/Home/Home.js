@@ -13,7 +13,7 @@ function Home() {
             <Navbar />
             <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
                 <div className="headerContainer">
-                    <h1>Jusqu'au Sommet</h1>
+                    <h1>Visez le sommet</h1>
                     <p> plus fort, plus haut, plus vite</p>
                     <Link to="/Produit">
                         <button> Commandez maintenant </button>
@@ -29,7 +29,7 @@ export default Home;
 
 // function Home() {
 //     return (
-
+        //Affichage du slider
 //         <div>
 //             <Navbar />
 //             <div className="container p-5">
